@@ -7,4 +7,9 @@
         <servlet-name>Servlet</servlet-name>
         <servlet-class>com.Servlet</servlet-class>
     </servlet>
+    <servlet>
+
+        <servlet-name>doLogin</servlet-name>
+        <servlet-class>doLogin</servlet-class>
+    </servlet>
 </web-app>
