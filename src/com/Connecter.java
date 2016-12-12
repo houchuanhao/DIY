@@ -11,7 +11,7 @@ public class Connecter{
     public static PreparedStatement insert=null;
 
 
-    public static void createConnection(){  //建立连接
+    protected static void createConnection(){  //建立连接
        try {
            new Connecter();
        }
@@ -40,6 +40,7 @@ public class Connecter{
             statement = conn.createStatement();
         }
         try{
+
             insert = conn.prepareStatement("insert into DIY(pUrl,dName,UserName,dInt,dCode) values(?,?,?,?,?)");
         }catch (Exception e){
 
