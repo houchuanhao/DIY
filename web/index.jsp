@@ -39,13 +39,10 @@
             width: 100%;
         }
         iframe{
-
-
             background-color: #2d2d2d;;
             border: 0px;
             scrolling:no;
             width: 100%;
-
         }
     </style>
     <script>
